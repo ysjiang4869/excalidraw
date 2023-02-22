@@ -31,6 +31,7 @@ import {
   FontSizeExtraLargeIcon,
   EdgeSharpIcon,
   EdgeRoundIcon,
+  FontFamilyChineseIcon,
   FreedrawIcon,
   FontFamilyNormalIcon,
   FontFamilyCodeIcon,
@@ -661,9 +662,9 @@ export const actionChangeFontFamily = register({
       icon: JSX.Element;
     }[] = [
       {
-        value: FONT_FAMILY.XiaolaiSC,
-        text: "小赖字体",
-        icon: <FontFamilyLaiIcon theme={appState.theme} />,
+        value: FONT_FAMILY.Chinese,
+        text: t("labels.handDrawn"),
+        icon: FontFamilyChineseIcon,
       },
       {
         value: FONT_FAMILY.Virgil,
