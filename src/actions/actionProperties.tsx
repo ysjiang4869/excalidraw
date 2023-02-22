@@ -661,6 +661,11 @@ export const actionChangeFontFamily = register({
       icon: JSX.Element;
     }[] = [
       {
+        value: FONT_FAMILY.XiaolaiSC,
+        text: "小赖字体",
+        icon: <FontFamilyLaiIcon theme={appState.theme} />,
+      },
+      {
         value: FONT_FAMILY.Virgil,
         text: t("labels.handDrawn"),
         icon: FreedrawIcon,
