@@ -50,6 +50,7 @@ import {
   ArrowheadDiamondIcon,
   ArrowheadDiamondOutlineIcon,
   fontSizeIcon,
+  FontFamilyChineseIcon,
 } from "../components/icons";
 import {
   DEFAULT_FONT_FAMILY,
@@ -770,6 +771,12 @@ export const actionChangeFontFamily = register({
     }[] = [
       {
         value: FONT_FAMILY.XiaolaiSC,
+        text: "小赖字体",
+        icon: FontFamilyChineseIcon,
+        testId: "font-family-virgil",
+      },
+      {
+        value: FONT_FAMILY.Virgil,
         text: t("labels.handDrawn"),
         icon: FreedrawIcon,
         testId: "font-family-virgil",

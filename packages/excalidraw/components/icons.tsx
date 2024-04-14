@@ -70,6 +70,20 @@ const modifiedTablerIconProps: Opts = {
 } as const;
 
 // -----------------------------------------------------------------------------
+export const FontFamilyChineseIcon = createIcon(
+  <>
+    <g
+      stroke="currentColor"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <rect x="2" y="6" width="16" height="8" />
+      <path d="M10,2 L10,20" />
+    </g>
+  </>,
+  modifiedTablerIconProps,
+);
 
 // tabler-icons: present
 export const PlusPromoIcon = createIcon(
